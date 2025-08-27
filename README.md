@@ -191,4 +191,27 @@ Typische Aufgaben:
 
 ---
 
+## Verwandte Repositories (GitHub)
+
+**Offiziell**
+- [microsoft/fabric-samples] – Lern- & Feature-Samples inkl. Notebooks und API-Beispiele.  
+- [microsoft/fabric-toolbox] – Tools, Accelerators, **Admin-/Monitoring-Notebooks**, CI/CD.  
+- [microsoft/semantic-link-labs] – Python-Lib + **Wrapper für Fabric/Power BI/Graph REST**; Beispiel-Notebooks.  
+- [microsoft/semantic-link-functions] – Erweiterte semantische Funktionen für DataFrames.  
+- [microsoft/fabricrealtimelab] – End-to-End-Workshop (RTI, KQL, DW/Lakehouse) mit Notebooks.
+
+**Community**
+- [m-kovalsky/Fabric] – Praktische **Notebook-Snippets** rund um SemPy & Labs (Admin/BI).  
+- [GT-Analytics/fuam-basic] – **Fabric Unified Admin Monitoring** (Pipelines + Notebooks + Reports).  
+- [ProdataSQL/Fabric] – Code-Snippets (Auth, SQL-Endpoint, etc.).  
+- [gronnerup/Fabric] – Diverse Fabric-Samples.  
+- [DaSenf1860/ms-fabric-sdk-core] – Community-**Python SDK** (REST/ARM Wrapper).  
+- [PowerBiDevCamp/FabricUserApiDemo] – C#-Sample zur Fabric **User API** (Automation).
+
+> Tipp: Für „Notebook-first“-Automatisierung in Fabric besonders relevant:
+> **fabric-toolbox** (Monitoring/CI/CD) und **semantic-link-labs** (REST-Wrappers & Admin).
+
+
+---
+
 **Happy Fabric-ing!**
