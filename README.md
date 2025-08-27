@@ -194,22 +194,115 @@ Typische Aufgaben:
 ## Verwandte Repositories (GitHub)
 
 **Offiziell**
-- [microsoft/fabric-samples] – Lern- & Feature-Samples inkl. Notebooks und API-Beispiele.  
-- [microsoft/fabric-toolbox] – Tools, Accelerators, **Admin-/Monitoring-Notebooks**, CI/CD.  
-- [microsoft/semantic-link-labs] – Python-Lib + **Wrapper für Fabric/Power BI/Graph REST**; Beispiel-Notebooks.  
-- [microsoft/semantic-link-functions] – Erweiterte semantische Funktionen für DataFrames.  
-- [microsoft/fabricrealtimelab] – End-to-End-Workshop (RTI, KQL, DW/Lakehouse) mit Notebooks.
+- [microsoft/fabric-samples](https://github.com/microsoft/fabric-samples) – Lern- & Feature-Samples inkl. Notebooks und API-Beispiele.  
+- [microsoft/fabric-toolbox](https://github.com/microsoft/fabric-toolbox) – Tools, Accelerators, **Admin-/Monitoring-Notebooks**, CI/CD.  
+- [microsoft/semantic-link-labs](https://github.commicrosoft/semantic-link-labs) – Python-Lib + **Wrapper für Fabric/Power BI/Graph REST**; Beispiel-Notebooks.  
+- [microsoft/semantic-link-functions](https://github.com/microsoft/semantic-link-functions) – Erweiterte semantische Funktionen für DataFrames.  
+- [microsoft/fabricrealtimelab](https://github.com/microsoft/fabricrealtimelab) – End-to-End-Workshop (RTI, KQL, DW/Lakehouse) mit Notebooks.
 
 **Community**
-- [m-kovalsky/Fabric] – Praktische **Notebook-Snippets** rund um SemPy & Labs (Admin/BI).  
-- [GT-Analytics/fuam-basic] – **Fabric Unified Admin Monitoring** (Pipelines + Notebooks + Reports).  
-- [ProdataSQL/Fabric] – Code-Snippets (Auth, SQL-Endpoint, etc.).  
-- [gronnerup/Fabric] – Diverse Fabric-Samples.  
-- [DaSenf1860/ms-fabric-sdk-core] – Community-**Python SDK** (REST/ARM Wrapper).  
-- [PowerBiDevCamp/FabricUserApiDemo] – C#-Sample zur Fabric **User API** (Automation).
+- [m-kovalsky/Fabric](https://github.com/m-kovalsky/Fabric) – Praktische **Notebook-Snippets** rund um SemPy & Labs (Admin/BI).  
+- [GT-Analytics/fuam-basic](https://github.com/GT-Analytics/fuam-basic) – **Fabric Unified Admin Monitoring** (Pipelines + Notebooks + Reports).  
+- [ProdataSQL/Fabric](https://github.com/ProdataSQL/Fabric) – Code-Snippets (Auth, SQL-Endpoint, etc.).  
+- [gronnerup/Fabric](https://github.com/gronnerup/Fabric) – Diverse Fabric-Samples.  
+- [DaSenf1860/ms-fabric-sdk-core](https://github.com/DaSenf1860/ms-fabric-sdk-core) – Community-**Python SDK** (REST/ARM Wrapper).  
+- [PowerBiDevCamp/FabricUserApiDemo](https://github.com/PowerBiDevCamp/FabricUserApiDemo) – C#-Sample zur Fabric **User API** (Automation).
 
 > Tipp: Für „Notebook-first“-Automatisierung in Fabric besonders relevant:
 > **fabric-toolbox** (Monitoring/CI/CD) und **semantic-link-labs** (REST-Wrappers & Admin).
+
+---
+## Weitere Ressourcen: Relevante Internetquellen & YouTube
+
+### Offizielle Microsoft Learn / Produktseiten
+- [Microsoft Fabric – Doku-Startseite](https://learn.microsoft.com/en-us/fabric/)
+- [Microsoft Fabric – Fundamentals (Grundlagen)](https://learn.microsoft.com/en-us/fabric/fundamentals/)
+- [Was ist Microsoft Fabric?](https://learn.microsoft.com/en-us/fabric/fundamentals/microsoft-fabric-overview)
+- [Was ist neu? (What's new)](https://learn.microsoft.com/en-us/fabric/fundamentals/whats-new)
+- [Release Plan / Roadmap-Übersicht](https://learn.microsoft.com/en-us/fabric/release-plan/overview)
+- [Fabric Roadmap (öffentliche Roadmap-Site)](https://roadmap.fabric.microsoft.com/)
+- [Microsoft Fabric – Produktseite](https://www.microsoft.com/en-us/microsoft-fabric)
+
+### REST & APIs
+- [Microsoft Fabric REST API – Übersicht](https://learn.microsoft.com/en-us/rest/api/fabric/articles/)
+- [Power BI REST API – Datasets](https://learn.microsoft.com/en-us/rest/api/power-bi/datasets)
+- [Power BI REST API – Reports](https://learn.microsoft.com/en-us/rest/api/power-bi/reports/get-reports)
+
+### SemPy / Semantic Link (für Notebooks)
+- [Semantic Link (Python) – Overview](https://learn.microsoft.com/en-us/python/api/semantic-link/overview-semantic-link?view=semantic-link-python)
+- [Semantic Link – Fabric Data Science Overview](https://learn.microsoft.com/en-us/fabric/data-science/semantic-link-overview)
+- [PyPI: semantic-link-sempy](https://pypi.org/project/semantic-link-sempy/)
+- [SemPy Labs – Funktionsdoku](https://semantic-link-labs.readthedocs.io/en/stable/sempy_labs.html)
+- [SemPy Labs – GitHub](https://github.com/microsoft/semantic-link-labs)
+
+### Workspaces, Rollen, Sicherheit & Governance
+- [Rollen in Workspaces](https://learn.microsoft.com/en-us/fabric/fundamentals/roles-workspaces)
+- [Permission Model (Fabric)](https://learn.microsoft.com/en-us/fabric/security/permission-model)
+- [Governance & Compliance in Fabric – Überblick](https://learn.microsoft.com/en-us/fabric/governance/governance-compliance-overview)
+- [Purview + Fabric – Integration](https://learn.microsoft.com/en-us/fabric/governance/microsoft-purview-fabric)
+- [Purview Hub in Fabric](https://learn.microsoft.com/en-us/fabric/governance/use-microsoft-purview-hub)
+- [Purview – Data Governance Overview](https://learn.microsoft.com/en-us/purview/data-governance-overview)
+
+### Git-Integration & Deployment Pipelines (ALM)
+- [Git-Integration – Überblick](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
+- [Git-Integration – Get started](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started)
+- [Deployment Pipelines – Überblick](https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines)
+- [Deployment Pipelines – Prozess & Incremental Refresh](https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/understand-the-deployment-process)
+
+### OneLake & Shortcuts
+- [OneLake Shortcuts – Überblick](https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts)
+- [OneLake Shortcut erstellen](https://learn.microsoft.com/en-us/fabric/onelake/create-onelake-shortcut)
+
+### Real-Time Intelligence (RTI): Eventhouse, Eventstreams, KQL DB
+- [Real-Time Intelligence – Doku-Start](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/)
+- [Eventhouse – Überblick](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/eventhouse)
+- [Eventstreams – Überblick](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/event-streams/overview)
+- [Eventstream erstellen & verwalten](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/event-streams/create-manage-an-eventstream)
+- [KQL Database – Erstellen](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/create-database)
+- [KQL Database – Verwalten & Monitoren](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/manage-monitor-database)
+- [Training: Use real-time eventstreams in Fabric](https://learn.microsoft.com/en-us/training/modules/explore-event-streams-microsoft-fabric/)
+- [RTI Tutorial – Teil 1: Eventhouse aufsetzen](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/tutorial-1-resources)
+
+### Data Warehouse & Data Factory (Pipelines)
+- [Fabric Data Warehouse – Doku](https://learn.microsoft.com/en-us/fabric/data-warehouse/)
+- [Data Factory: Pipeline REST-Fähigkeiten](https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-rest-api-capabilities)
+- [KQL Database Connector (Pipelines)](https://learn.microsoft.com/en-us/fabric/data-factory/connector-kql-database-overview)
+
+### Offizielle Blogs & Updates
+- [Microsoft Fabric Blog – Updates & Ankündigungen](https://blog.fabric.microsoft.com/)
+- [Monatliche Updates / Zusammenfassungen](https://support.fabric.microsoft.com/en-in/blog/category/monthly-update)
+
+### Community / Foren
+- [Microsoft Fabric Community (Foren, Q&A, Ressourcen)](https://community.fabric.microsoft.com/)
+
+---
+
+## YouTube – ausgewählte Kanäle, Playlists & Videos
+
+**Offiziell**
+- [Microsoft Fabric – offizieller YouTube-Kanal](https://www.youtube.com/@MicrosoftFabric/videos)
+- [Microsoft Mechanics (IT-Pros & Architekten)](https://www.youtube.com/channel/UCJ9905MRHxwLZ2jeNQGIWxA/videos)
+
+**Creator / Community**
+- [Guy in a Cube – Kanal (Fabric & Power BI)](https://www.youtube.com/guyinacube)
+- [Getting Started with Microsoft Fabric – Playlist (GiAC)](https://www.youtube.com/playlist?list=PLv2BtOtLblH1RhbtfTpp9ovi3Y-3HiRO2)
+- [All this Microsoft Fabric… what about Power BI? (GiAC)](https://www.youtube.com/watch?v=rqOJSogcIhk)
+
+**Real-Time Intelligence (Eventstreams, KQL, Dashboards)**
+- [End-to-End Streaming Analytics in Fabric (ISS Tracker, KQL, PBI)](https://www.youtube.com/watch?v=iWepPEUUO_4)
+- [Getting Started with Real-Time Intelligence](https://www.youtube.com/watch?v=XaKEvEUjiwo)
+- [Eventstream → KQL – „Create your first Eventstream“](https://www.youtube.com/watch?v=SyRDll6OvX0)
+- [Eventstream Transformations → Data Activator & KQL](https://www.youtube.com/watch?v=_Q_0By0wc8M)
+
+**Warehouse & Pipelines**
+- [Create your first Data Warehouse in Fabric](https://www.youtube.com/watch?v=StIBBb69wDw)
+- [Full Course: Learn Microsoft Fabric Data Pipelines (2025)](https://www.youtube.com/watch?v=1PGE9bWqY2g)
+- [Learn the Fundamentals of Microsoft Fabric (≈38 min)](https://www.youtube.com/watch?v=J4i5lcROJcs)
+- [Learn Together: Get started with data warehouses in Fabric](https://www.youtube.com/watch?v=m6wJPxlYCrs)
+
+**SemPy / Semantic Link**
+- [Semantic Link – 1-Stunden-Workshop](https://www.youtube.com/watch?v=Xj0AnZ8qT58)
+- [Advancing Fabric – Power BI meets Spark with Semantic-Link](https://www.youtube.com/watch?v=4AG8_PilrYY)
 
 
 ---
